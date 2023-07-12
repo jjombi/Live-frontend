@@ -9,6 +9,7 @@ const Mypage = () => {
         width: 80%;
         margin-left: 10%;
         background-color: red;
+
     `
     const Profile_area = styled(Content_area_basic)`
         height: 20%;
