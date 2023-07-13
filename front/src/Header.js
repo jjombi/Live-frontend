@@ -99,16 +99,12 @@ const Header = () => {
     }
     return(
         <div>
-            {
-                login_signup_btn === true 
-                ? 
-                <>
-                    <button className="p_btn_basic Login_btn" onClick={click_login_btn}>로그인</button>
-                    <button className="p_btn_basic signup_btn" onClick={click_signup_btn}>회원가입</button>
-                </>
-                : null
-
-            }
+            
+                
+                <button className="p_btn_basic Login_btn" onClick={click_login_btn}>로그인</button>
+                <button className="p_btn_basic signup_btn" onClick={click_signup_btn}>회원가입</button>
+                
+                
             {
                 header_area === true
                 ?
